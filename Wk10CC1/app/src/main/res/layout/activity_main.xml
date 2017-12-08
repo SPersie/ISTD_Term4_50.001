@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.study.wk10cc1.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/comic_number"
+        android:hint="comic number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+
+    <Button
+        android:text="Get Comic from xkcd"
+        android:id="@+id/get_comic"
+        android:onClick="onClickGetComic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/comic_url"
+        android:text="comic url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/comic_json"
+        android:text="JSON results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/comic_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
