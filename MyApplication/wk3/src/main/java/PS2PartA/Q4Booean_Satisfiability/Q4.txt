@@ -1,0 +1,3 @@
+Not satisfied
+
+(not(A) or B) and A would mean B and A(B impliesC) and (C implies D) and not(D) would mean not(C) and thus not(B) and thus definitely not (B and A)

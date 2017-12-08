@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidproject/androidproject.iml" filepath="$PROJECT_DIR$/androidproject/androidproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz2/quiz2.iml" filepath="$PROJECT_DIR$/quiz2/quiz2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testing/testing.iml" filepath="$PROJECT_DIR$/testing/testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wk1/wk1.iml" filepath="$PROJECT_DIR$/wk1/wk1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wk2/wk2.iml" filepath="$PROJECT_DIR$/wk2/wk2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wk3/wk3.iml" filepath="$PROJECT_DIR$/wk3/wk3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wk4/wk4.iml" filepath="$PROJECT_DIR$/wk4/wk4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wk5/wk5.iml" filepath="$PROJECT_DIR$/wk5/wk5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wk6/wk6.iml" filepath="$PROJECT_DIR$/wk6/wk6.iml" />
+    </modules>
+  </component>
+</project>

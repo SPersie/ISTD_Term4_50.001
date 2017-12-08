@@ -1,0 +1,11 @@
+Q3.
+1.	Average: O(log n); Worst: O(n) for two dimensional. O(n) for higher          	dimensional.
+2.	Map system. To find the nearest place.
+
+Q4.
+1.	Insert O(log n)
+2.	Searching engine. Searching entry in a database.
+
+Q5
+1.	O(nk)
+2.	DVD disk, hard disk. Yes we still need B tree to implement hard disk.

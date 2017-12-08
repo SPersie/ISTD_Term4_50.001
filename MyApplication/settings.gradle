@@ -1,0 +1,1 @@
+include ':app', ':wk4', ':wk1', ':wk2', ':wk3', ':wk5', ':wk6', ':testing', ':quiz2', ':androidproject'
