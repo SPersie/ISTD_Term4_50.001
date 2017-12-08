@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.study.wk10cc2.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextRemarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="textPersonName"
+        android:hint="Remarks"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:ems="12"
+        android:inputType="numberDecimal"
+        android:layout_alignBaseline="@+id/editTextRemarks"
+        android:layout_alignBottom="@+id/editTextRemarks"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/editTextRemarks"
+        android:layout_toEndOf="@+id/editTextRemarks" />
+
+    <Button
+        android:id="@+id/buttonAddDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAddToDb"
+        android:text="Add To Database"
+        android:layout_below="@+id/editTextRemarks"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter id?"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/buttonAddDatabase"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></EditText>
+
+    <Button
+        android:id="@+id/buttonDeleteDatabase"
+        android:text="Delete From Database"
+        android:layout_below="@id/editTextID"
+        android:layout_width="match_parent"
+        android:onClick="onClickDeleteFromDb"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonDisplayDatabase"
+        android:text="Display Database"
+        android:layout_below="@id/buttonDeleteDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGetEntireDb"
+        />
+
+    <TextView
+        android:id="@+id/textViewEntireDatabase"
+        android:layout_below="@+id/buttonDisplayDatabase"
+        android:text="Database Info here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
